@@ -5,7 +5,7 @@
 
 // #define WIRE_ENABLED_BeyondByte // comment out if you do not use the Wire (I2C) library to reduce use of program storage and global registers - Wire library could be rewritten to not use any program storage and global registers if this library is included and unused - this does not affect SPI and EEPROM libraries for most platforms
 #define SPI_ENABLED_BeyondByte
-#define EEPROM_ENABLED_BeyondByte
+//#define EEPROM_ENABLED_BeyondByte
 #define SERIAL_ENABLED_BeyondByte // comment out if you do not use serial communication to reduce use of program storage and global registers - HardwareSerial library could be rewritten to not use any program storage and global registers if this library is included and unused - this does not affect SPI library for most platforms
 #define SERIAL_1_ENABLED_BeyondByte // comment out if you do not use serial communication to reduce use of program storage and global registers - HardwareSerial library could be rewritten to not use any program storage and global registers if this library is included and unused - this does not affect SPI library for most platforms
 #define SERIAL_2_ENABLED_BeyondByte // comment out if you do not use serial communication to reduce use of program storage and global registers - HardwareSerial library could be rewritten to not use any program storage and global registers if this library is included and unused - this does not affect SPI library for most platforms
